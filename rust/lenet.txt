@@ -1,0 +1,107 @@
+Start:   Receiving keys
+End:     Receiving keys.............................................................696.381ms
+Start:   Server offline phase
+··Start:   Linear layers offline phase
+start linear reader communication size:33180315
+start linear writer communication size:0
+linear Layer input dim: (1, 1, 28, 28)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................851.419µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................30.715ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................1.245s
+······Start:   Sending result
+······End:     Sending result.......................................................2.724ms
+····End:     Server linear offline protocol.........................................1.279s
+end linear reader communication size:46290156
+end linear writer communication size:1048802
+==============================reader communication:13109841, writer communication:1048802
+start linear reader communication size:46290156
+start linear writer communication size:1048802
+linear Layer input dim: (1, 16, 24, 24)
+end linear reader communication size:46290156
+end linear writer communication size:1048802
+==============================reader communication:0, writer communication:0
+start linear reader communication size:46290156
+start linear writer communication size:1048802
+linear Layer input dim: (1, 16, 12, 12)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................390.25µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................139.251ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................1.278s
+······Start:   Sending result
+······End:     Sending result.......................................................1.824ms
+····End:     Server linear offline protocol.........................................1.420s
+end linear reader communication size:59399997
+end linear writer communication size:1573211
+==============================reader communication:13109841, writer communication:524409
+start linear reader communication size:59399997
+start linear writer communication size:1573211
+linear Layer input dim: (1, 16, 8, 8)
+end linear reader communication size:59399997
+end linear writer communication size:1573211
+==============================reader communication:0, writer communication:0
+start linear reader communication size:59399997
+start linear writer communication size:1573211
+linear Layer input dim: (1, 16, 4, 4)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................354.384µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................17.920ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................63.718ms
+······Start:   Sending result
+······End:     Sending result.......................................................1.899ms
+····End:     Server linear offline protocol.........................................83.994ms
+end linear reader communication size:59924406
+end linear writer communication size:2097620
+==============================reader communication:524409, writer communication:524409
+start linear reader communication size:59924406
+start linear writer communication size:2097620
+linear Layer input dim: (1, 100, 1, 1)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................355.864µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................62.208ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................47.507ms
+······Start:   Sending result
+······End:     Sending result.......................................................1.847ms
+····End:     Server linear offline protocol.........................................112.41ms
+end linear reader communication size:60448815
+end linear writer communication size:2622029
+==============================reader communication:524409, writer communication:524409
+··End:     Linear layers offline phase..............................................3.56s
+start relu reader communication size:60448815
+start relu writer communication size:2622029
+··Start:   ReLU layers offline phase, with 10340 activations
+····Start:   ReLU offline protocol
+······Start:   Garbling
+······End:     Garbling.............................................................110.948ms
+······Start:   Encoding inputs
+······End:     Encoding inputs......................................................46.517ms
+······Start:   Sending GCs
+······End:     Sending GCs..........................................................155.769ms
+······Start:   OTs
+······End:     OTs..................................................................164.434ms
+····End:     ReLU offline protocol..................................................477.935ms
+··End:     ReLU layers offline phase, with 10340 activations........................481.603ms
+end relu reader communication size:67401423
+end relu writer communication size:193047613
+==============================reader communication:6952608, writer communication:190425584
+··Start:   Approx layers offline phase, with 0 activations
+··End:     Approx layers offline phase, with 0 activations..........................111ns
+End:     Server offline phase.......................................................3.537s
+StartMsg: Offline Communication
+  
+  Read 67401423 bytes
+  Wrote 193047613 bytes
+
+EndMsg: Offline Communication

@@ -1,0 +1,549 @@
+Start:   Receiving keys
+End:     Receiving keys.............................................................637.198ms
+Start:   Server offline phase
+··Start:   Linear layers offline phase
+start linear reader communication size:33180315
+start linear writer communication size:0
+linear Layer input dim: (1, 3, 32, 32)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................1.167ms
+······Start:   Receiving Input
+······End:     Receiving Input......................................................11.847ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................513.304ms
+······Start:   Sending result
+······End:     Sending result.......................................................3.732ms
+····End:     Server linear offline protocol.........................................530.201ms
+end linear reader communication size:37899868
+end linear writer communication size:1048802
+==============================reader communication:4719553, writer communication:1048802
+start linear reader communication size:37899868
+start linear writer communication size:1048802
+linear Layer input dim: (1, 16, 32, 32)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................1.96ms
+······Start:   Receiving Input
+······End:     Receiving Input......................................................108.186ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................986.117ms
+······Start:   Sending result
+······End:     Sending result.......................................................2.812ms
+····End:     Server linear offline protocol.........................................1.98s
+end linear reader communication size:47338958
+end linear writer communication size:2097604
+==============================reader communication:9439090, writer communication:1048802
+start linear reader communication size:47338958
+start linear writer communication size:2097604
+linear Layer input dim: (1, 16, 32, 32)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................1.139ms
+······Start:   Receiving Input
+······End:     Receiving Input......................................................109.590ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................979.968ms
+······Start:   Sending result
+······End:     Sending result.......................................................2.820ms
+····End:     Server linear offline protocol.........................................1.93s
+end linear reader communication size:56778048
+end linear writer communication size:3146406
+==============================reader communication:9439090, writer communication:1048802
+start linear reader communication size:56778048
+start linear writer communication size:3146406
+linear Layer input dim: (1, 16, 32, 32)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................1.256ms
+······Start:   Receiving Input
+······End:     Receiving Input......................................................93.678ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................1.0s
+······Start:   Sending result
+······End:     Sending result.......................................................2.526ms
+····End:     Server linear offline protocol.........................................1.98s
+end linear reader communication size:66217138
+end linear writer communication size:4195208
+==============================reader communication:9439090, writer communication:1048802
+start linear reader communication size:66217138
+start linear writer communication size:4195208
+linear Layer input dim: (1, 16, 32, 32)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................1.99ms
+······Start:   Receiving Input
+······End:     Receiving Input......................................................93.219ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................983.261ms
+······Start:   Sending result
+······End:     Sending result.......................................................2.689ms
+····End:     Server linear offline protocol.........................................1.80s
+end linear reader communication size:75656228
+end linear writer communication size:5244010
+==============================reader communication:9439090, writer communication:1048802
+start linear reader communication size:75656228
+start linear writer communication size:5244010
+linear Layer input dim: (1, 16, 32, 32)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................1.147ms
+······Start:   Receiving Input
+······End:     Receiving Input......................................................111.94ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................998.232ms
+······Start:   Sending result
+······End:     Sending result.......................................................3.5ms
+····End:     Server linear offline protocol.........................................1.113s
+end linear reader communication size:85095318
+end linear writer communication size:6292812
+==============================reader communication:9439090, writer communication:1048802
+start linear reader communication size:85095318
+start linear writer communication size:6292812
+linear Layer input dim: (1, 16, 32, 32)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................1.152ms
+······Start:   Receiving Input
+······End:     Receiving Input......................................................91.229ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................987.259ms
+······Start:   Sending result
+······End:     Sending result.......................................................2.714ms
+····End:     Server linear offline protocol.........................................1.82s
+end linear reader communication size:94534408
+end linear writer communication size:7341614
+==============================reader communication:9439090, writer communication:1048802
+start linear reader communication size:94534408
+start linear writer communication size:7341614
+linear Layer input dim: (1, 16, 32, 32)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................1.108ms
+······Start:   Receiving Input
+······End:     Receiving Input......................................................112.705ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................982.864ms
+······Start:   Sending result
+······End:     Sending result.......................................................2.753ms
+····End:     Server linear offline protocol.........................................1.99s
+end linear reader communication size:103973498
+end linear writer communication size:8390416
+==============================reader communication:9439090, writer communication:1048802
+start linear reader communication size:103973498
+start linear writer communication size:8390416
+linear Layer input dim: (1, 16, 32, 32)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................1.120ms
+······Start:   Receiving Input
+······End:     Receiving Input......................................................127.149ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................1.0s
+······Start:   Sending result
+······End:     Sending result.......................................................2.828ms
+····End:     Server linear offline protocol.........................................1.131s
+end linear reader communication size:113412588
+end linear writer communication size:9439218
+==============================reader communication:9439090, writer communication:1048802
+start linear reader communication size:113412588
+start linear writer communication size:9439218
+linear Layer input dim: (1, 16, 32, 32)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................1.82ms
+······Start:   Receiving Input
+······End:     Receiving Input......................................................98.970ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................1.4s
+······Start:   Sending result
+······End:     Sending result.......................................................2.931ms
+····End:     Server linear offline protocol.........................................1.107s
+end linear reader communication size:122851678
+end linear writer communication size:10488020
+==============================reader communication:9439090, writer communication:1048802
+start linear reader communication size:122851678
+start linear writer communication size:10488020
+linear Layer input dim: (1, 16, 32, 32)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................1.115ms
+······Start:   Receiving Input
+······End:     Receiving Input......................................................119.545ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................1.11s
+······Start:   Sending result
+······End:     Sending result.......................................................2.931ms
+····End:     Server linear offline protocol.........................................1.135s
+end linear reader communication size:132290768
+end linear writer communication size:11536822
+==============================reader communication:9439090, writer communication:1048802
+start linear reader communication size:132290768
+start linear writer communication size:11536822
+linear Layer input dim: (1, 16, 32, 32)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................1.612ms
+······Start:   Receiving Input
+······End:     Receiving Input......................................................44.706ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................2.24s
+······Start:   Sending result
+······End:     Sending result.......................................................4.861ms
+····End:     Server linear offline protocol.........................................2.76s
+end linear reader communication size:141729858
+end linear writer communication size:13634410
+==============================reader communication:9439090, writer communication:2097588
+start linear reader communication size:141729858
+start linear writer communication size:13634410
+linear Layer input dim: (1, 32, 16, 16)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................580.917µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................17.450ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................1.103s
+······Start:   Sending result
+······End:     Sending result.......................................................2.117ms
+····End:     Server linear offline protocol.........................................1.124s
+end linear reader communication size:146449411
+end linear writer communication size:14158819
+==============================reader communication:4719553, writer communication:524409
+start linear reader communication size:146449411
+start linear writer communication size:14158819
+linear Layer input dim: (1, 32, 16, 16)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................605.198µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................9.998ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................1.107s
+······Start:   Sending result
+······End:     Sending result.......................................................1.977ms
+····End:     Server linear offline protocol.........................................1.120s
+end linear reader communication size:151168964
+end linear writer communication size:14683228
+==============================reader communication:4719553, writer communication:524409
+start linear reader communication size:151168964
+start linear writer communication size:14683228
+linear Layer input dim: (1, 32, 16, 16)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................562.346µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................10.531ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................1.94s
+······Start:   Sending result
+······End:     Sending result.......................................................1.762ms
+····End:     Server linear offline protocol.........................................1.107s
+end linear reader communication size:155888517
+end linear writer communication size:15207637
+==============================reader communication:4719553, writer communication:524409
+start linear reader communication size:155888517
+start linear writer communication size:15207637
+linear Layer input dim: (1, 32, 16, 16)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................575.53µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................9.662ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................1.87s
+······Start:   Sending result
+······End:     Sending result.......................................................1.935ms
+····End:     Server linear offline protocol.........................................1.100s
+end linear reader communication size:160608070
+end linear writer communication size:15732046
+==============================reader communication:4719553, writer communication:524409
+start linear reader communication size:160608070
+start linear writer communication size:15732046
+linear Layer input dim: (1, 32, 16, 16)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................586.794µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................22.99ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................1.101s
+······Start:   Sending result
+······End:     Sending result.......................................................1.825ms
+····End:     Server linear offline protocol.........................................1.126s
+end linear reader communication size:165327623
+end linear writer communication size:16256455
+==============================reader communication:4719553, writer communication:524409
+start linear reader communication size:165327623
+start linear writer communication size:16256455
+linear Layer input dim: (1, 32, 16, 16)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................615.527µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................18.183ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................1.77s
+······Start:   Sending result
+······End:     Sending result.......................................................2.27ms
+····End:     Server linear offline protocol.........................................1.98s
+end linear reader communication size:170047176
+end linear writer communication size:16780864
+==============================reader communication:4719553, writer communication:524409
+start linear reader communication size:170047176
+start linear writer communication size:16780864
+linear Layer input dim: (1, 32, 16, 16)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................584.688µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................21.235ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................1.94s
+······Start:   Sending result
+······End:     Sending result.......................................................1.865ms
+····End:     Server linear offline protocol.........................................1.118s
+end linear reader communication size:174766729
+end linear writer communication size:17305273
+==============================reader communication:4719553, writer communication:524409
+start linear reader communication size:174766729
+start linear writer communication size:17305273
+linear Layer input dim: (1, 32, 16, 16)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................578.154µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................19.338ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................1.66s
+······Start:   Sending result
+······End:     Sending result.......................................................1.863ms
+····End:     Server linear offline protocol.........................................1.87s
+end linear reader communication size:179486282
+end linear writer communication size:17829682
+==============================reader communication:4719553, writer communication:524409
+start linear reader communication size:179486282
+start linear writer communication size:17829682
+linear Layer input dim: (1, 32, 16, 16)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................607.691µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................64.404ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................1.94s
+······Start:   Sending result
+······End:     Sending result.......................................................1.836ms
+····End:     Server linear offline protocol.........................................1.161s
+end linear reader communication size:184205835
+end linear writer communication size:18354091
+==============================reader communication:4719553, writer communication:524409
+start linear reader communication size:184205835
+start linear writer communication size:18354091
+linear Layer input dim: (1, 32, 16, 16)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................820.788µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................9.399ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................2.205s
+······Start:   Sending result
+······End:     Sending result.......................................................3.112ms
+····End:     Server linear offline protocol.........................................2.218s
+end linear reader communication size:188925388
+end linear writer communication size:19402893
+==============================reader communication:4719553, writer communication:1048802
+start linear reader communication size:188925388
+start linear writer communication size:19402893
+linear Layer input dim: (1, 64, 8, 8)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................487.477µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................9.404ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................2.409s
+······Start:   Sending result
+······End:     Sending result.......................................................1.989ms
+····End:     Server linear offline protocol.........................................2.421s
+end linear reader communication size:193644941
+end linear writer communication size:19927302
+==============================reader communication:4719553, writer communication:524409
+start linear reader communication size:193644941
+start linear writer communication size:19927302
+linear Layer input dim: (1, 64, 8, 8)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................498.191µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................9.710ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................2.392s
+······Start:   Sending result
+······End:     Sending result.......................................................1.912ms
+····End:     Server linear offline protocol.........................................2.405s
+end linear reader communication size:198364494
+end linear writer communication size:20451711
+==============================reader communication:4719553, writer communication:524409
+start linear reader communication size:198364494
+start linear writer communication size:20451711
+linear Layer input dim: (1, 64, 8, 8)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................432.57µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................9.314ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................2.368s
+······Start:   Sending result
+······End:     Sending result.......................................................1.813ms
+····End:     Server linear offline protocol.........................................2.379s
+end linear reader communication size:203084047
+end linear writer communication size:20976120
+==============================reader communication:4719553, writer communication:524409
+start linear reader communication size:203084047
+start linear writer communication size:20976120
+linear Layer input dim: (1, 64, 8, 8)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................482.102µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................9.675ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................2.377s
+······Start:   Sending result
+······End:     Sending result.......................................................1.885ms
+····End:     Server linear offline protocol.........................................2.389s
+end linear reader communication size:207803600
+end linear writer communication size:21500529
+==============================reader communication:4719553, writer communication:524409
+start linear reader communication size:207803600
+start linear writer communication size:21500529
+linear Layer input dim: (1, 64, 8, 8)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................468.521µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................9.293ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................2.363s
+······Start:   Sending result
+······End:     Sending result.......................................................1.948ms
+····End:     Server linear offline protocol.........................................2.375s
+end linear reader communication size:212523153
+end linear writer communication size:22024938
+==============================reader communication:4719553, writer communication:524409
+start linear reader communication size:212523153
+start linear writer communication size:22024938
+linear Layer input dim: (1, 64, 8, 8)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................480.457µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................9.401ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................2.400s
+······Start:   Sending result
+······End:     Sending result.......................................................2.90ms
+····End:     Server linear offline protocol.........................................2.412s
+end linear reader communication size:217242706
+end linear writer communication size:22549347
+==============================reader communication:4719553, writer communication:524409
+start linear reader communication size:217242706
+start linear writer communication size:22549347
+linear Layer input dim: (1, 64, 8, 8)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................473.113µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................9.512ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................2.379s
+······Start:   Sending result
+······End:     Sending result.......................................................2.108ms
+····End:     Server linear offline protocol.........................................2.392s
+end linear reader communication size:221962259
+end linear writer communication size:23073756
+==============================reader communication:4719553, writer communication:524409
+start linear reader communication size:221962259
+start linear writer communication size:23073756
+linear Layer input dim: (1, 64, 8, 8)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................472.94µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................9.490ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................2.368s
+······Start:   Sending result
+······End:     Sending result.......................................................1.849ms
+····End:     Server linear offline protocol.........................................2.380s
+end linear reader communication size:226681812
+end linear writer communication size:23598165
+==============================reader communication:4719553, writer communication:524409
+start linear reader communication size:226681812
+start linear writer communication size:23598165
+linear Layer input dim: (1, 64, 8, 8)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................470.694µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................9.468ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................2.353s
+······Start:   Sending result
+······End:     Sending result.......................................................2.75ms
+····End:     Server linear offline protocol.........................................2.365s
+end linear reader communication size:231401365
+end linear writer communication size:24122574
+==============================reader communication:4719553, writer communication:524409
+start linear reader communication size:231401365
+start linear writer communication size:24122574
+linear Layer input dim: (1, 64, 8, 8)
+end linear reader communication size:231401365
+end linear writer communication size:24122574
+==============================reader communication:0, writer communication:0
+start linear reader communication size:231401365
+start linear writer communication size:24122574
+linear Layer input dim: (1, 64, 4, 4)
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................352.45µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................19.358ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................63.57ms
+······Start:   Sending result
+······End:     Sending result.......................................................2.351ms
+····End:     Server linear offline protocol.........................................85.220ms
+end linear reader communication size:231925774
+end linear writer communication size:24646983
+==============================reader communication:524409, writer communication:524409
+··End:     Linear layers offline phase..............................................50.248s
+start relu reader communication size:231925774
+start relu writer communication size:24646983
+··Start:   ReLU layers offline phase, with 303104 activations
+····Start:   ReLU offline protocol
+······Start:   Garbling
+······End:     Garbling.............................................................3.232s
+······Start:   Encoding inputs
+······End:     Encoding inputs......................................................1.984s
+······Start:   Sending GCs
+······End:     Sending GCs..........................................................5.635s
+······Start:   OTs
+······End:     OTs..................................................................1.361s
+····End:     ReLU offline protocol..................................................12.214s
+··End:     ReLU layers offline phase, with 303104 activations.......................12.586s
+end relu reader communication size:435615790
+end relu writer communication size:5606615231
+==============================reader communication:203690016, writer communication:5581968248
+··Start:   Approx layers offline phase, with 0 activations
+··End:     Approx layers offline phase, with 0 activations..........................123ns
+End:     Server offline phase.......................................................62.834s
+StartMsg: Offline Communication
+  
+  Read 435615790 bytes
+  Wrote 5606615231 bytes
+
+EndMsg: Offline Communication
