@@ -65,14 +65,6 @@ name = "minionn-server"
 path = "src/latency/minionn/server.rs"
 
 [[bin]]
-name = "tput-client"
-path = "src/throughput/linear_only/client.rs"
-
-[[bin]]
-name = "tput-server"
-path = "src/throughput/linear_only/server.rs"
-
-[[bin]]
 name = "mnist-client"
 path = "src/latency/mnist/client.rs"
 
