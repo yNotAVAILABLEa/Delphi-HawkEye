@@ -144,6 +144,11 @@ where
         let start_time = timer_start!(|| "Server offline phase");
         let linear_time = timer_start!(|| "Linear layers offline phase");
         // println!("pos2 reader communication size:{:?}", reader.count());
+        let num_layers = neural_network.layers.len();
+        let mut convreader = 0;
+        let mut convwriter = 0;
+        let mut otherlinearreader = 0;
+        let mut otherlinearwriter = 0;
         for (i, layer) in neural_network.layers.iter().enumerate() {
             match layer {
                 Layer::NLL(NonLinearLayer::ReLU(dims)) => {
@@ -198,9 +203,18 @@ where
                     println!("end linear writer communication size:{:?}", writer.count());
                     println!("This layer's reader communication:{}, writer communication:{}", endreader-startreader, endwriter-startwriter);
                     println!("");
+                    if i == num_layers - 1 {
+                        otherlinearreader = otherlinearreader + endreader-startreader;
+                        otherlinearwriter = otherlinearwriter + endwriter-startwriter;
+                    } else {
+                        convreader = convreader + endreader - startreader;
+                        convwriter = convwriter + endwriter-startwriter;
+                    }
                 }
             }
         }
+        println!("The offline conv2d reader communication:{}, writer communication:{}", convreader, convwriter);
+        println!("The offline other linear operators reader communication:{}, writer communication:{}", otherlinearreader, otherlinearwriter);
         timer_end!(linear_time);
 
         println!("start relu reader communication size:{:?}", reader.count());
@@ -218,7 +232,7 @@ where
         println!("end relu writer communication size:{:?}", writer.count());
         let endreader = reader.count();
         let endwriter = writer.count();
-        println!("This layer's reader communication:{}, writer communication:{}", endreader-startreader, endwriter-startwriter);
+        println!("The offline relu reader communication:{}, writer communication:{}", endreader-startreader, endwriter-startwriter);
 
         let approx_time = timer_start!(|| format!(
             "Approx layers offline phase, with {:?} activations",
@@ -431,6 +445,13 @@ where
         let mut next_layer_input = Output::zeros(first_layer_out_dims);
         let mut next_layer_derandomizer = Input::zeros(first_layer_in_dims);
         let start_time = timer_start!(|| "Server online phase");
+        let num_layers = neural_network.layers.len();
+        let mut convreader = 0;
+        let mut convwriter = 0;
+        let mut otherlinearreader = 0;
+        let mut otherlinearwriter = 0;
+        let mut relureader = 0;
+        let mut reluwriter = 0;
         for (i, layer) in neural_network.layers.iter().enumerate() {
             match layer {
                 Layer::NLL(NonLinearLayer::ReLU(dims)) => {
@@ -525,6 +546,20 @@ where
                     println!("end linear writer communication size:{:?}", writer.count());
                     println!("This layer's reader communication:{}, writer communication:{}", endreader-startreader, endwriter-startwriter);
                      next_layer_derandomizer = Output::zeros(layer.output_dimensions());
+                     if i == num_layers - 1 {
+                        otherlinearreader = otherlinearreader + reader.count() - convreader;
+                        otherlinearwriter = 0;
+                        relureader = 0;
+                        reluwriter = writer.count();
+                    }
+                    if num_layers >= 3 && i == num_layers - 3{
+                        convreader = reader.count();
+                        convwriter = 0;
+                    }
+                    if num_layers >= 4 && i == num_layers - 4{
+                        convreader = reader.count();
+                        convwriter = 0;
+                    }
                     // Since linear operations involve multiplications
                     // by fixed-point constants, we want to truncate here to
                     // ensure that we don't overflow.
@@ -536,6 +571,9 @@ where
                 }
             }
         }
+        println!("The online conv2d reader communication:{}, writer communication:{}", convreader, 0);
+        println!("The online other linear operators reader communication:{}, writer communication:{}", otherlinearreader, 0);
+        println!("The online relu reader communication:{}, writer communication:{}", 0, reluwriter);
         let sent_message = MsgSend::new(&next_layer_input);
         crate::bytes::serialize(writer, &sent_message)?;
         timer_end!(start_time);
