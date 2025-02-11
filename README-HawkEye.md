@@ -45,7 +45,7 @@ cargo +nightly build --release
 ```
 
 ## Compile models and run profiling processes
-Open two terminals and run the following two commands in `rust` folder simultaneously:
+Open two terminals and run the following two commands in Delphi/rust simultaneously:
 ```
 cargo +nightly run --bin resnet32-server --release --all-features -- -l 0 > resnet32_log.txt
 cargo +nightly run --bin resnet32-client --release --all-features -- -l 0 -i 127.0.0.1
