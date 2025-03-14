@@ -287,7 +287,7 @@ impl<P: Fp32Parameters> Display for Fp32<P> {
 impl<P: Fp32Parameters> Neg for Fp32<P> {
     type Output = Self;
     #[inline]
-    #[must_use]
+    // #[must_use]
     fn neg(self) -> Self {
         if !self.is_zero() {
             let mut tmp = P::MODULUS;
