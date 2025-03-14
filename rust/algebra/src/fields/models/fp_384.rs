@@ -517,7 +517,7 @@ impl<P: Fp384Parameters> Display for Fp384<P> {
 impl<P: Fp384Parameters> Neg for Fp384<P> {
     type Output = Self;
     #[inline]
-    #[must_use]
+    // #[must_use]
     fn neg(self) -> Self {
         if !self.is_zero() {
             let mut tmp = P::MODULUS.clone();
