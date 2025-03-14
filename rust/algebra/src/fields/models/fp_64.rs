@@ -302,7 +302,7 @@ impl<P: Fp64Parameters> std::fmt::Debug for Fp64<P> {
 impl<P: Fp64Parameters> Neg for Fp64<P> {
     type Output = Self;
     #[inline]
-    #[must_use]
+    // #[must_use]
     fn neg(self) -> Self {
         if !self.is_zero() {
             let mut tmp = P::MODULUS;
