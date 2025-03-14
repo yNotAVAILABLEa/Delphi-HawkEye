@@ -33,7 +33,7 @@ def main():
                     total = (reader_comm + writer_comm) / 1024.0 / 1024.0
                     total = round(total, 2)
 
-                    offlineconv = total
+                    onlineconv = total
 
             if 'The online other linear operators reader communication' in line:
                 match = re.search(r"reader communication:(\d+), writer communication:(\d+)", line)
@@ -44,7 +44,7 @@ def main():
                     total = (reader_comm + writer_comm) / 1024.0 / 1024.0
                     total = round(total, 2)
 
-                    offlineotherlinear = total
+                    onlineotherlinear = total
             
             if 'The online relu reader communication' in line:
                 match = re.search(r"reader communication:(\d+), writer communication:(\d+)", line)
@@ -55,7 +55,7 @@ def main():
                     total = (reader_comm + writer_comm) / 1024.0 / 1024.0
                     total = round(total, 2)
                     
-                    offlinerelu = total
+                    onlinerelu = total
 
             if 'The offline conv2d reader communication' in line:
                 match = re.search(r"reader communication:(\d+), writer communication:(\d+)", line)
@@ -66,7 +66,7 @@ def main():
                     total = (reader_comm + writer_comm) / 1024.0 / 1024.0
                     total = round(total, 2)
                     
-                    onlineconv = total
+                    offlineconv = total
             
             if 'The offline other linear operators reader communication' in line:
                 match = re.search(r"reader communication:(\d+), writer communication:(\d+)", line)
@@ -77,7 +77,7 @@ def main():
                     total = (reader_comm + writer_comm) / 1024.0 / 1024.0
                     total = round(total, 2)
                     
-                    onlineotherlinear = total
+                    offlineotherlinear = total
 
             if 'The offline relu reader communication' in line:
                 match = re.search(r"reader communication:(\d+), writer communication:(\d+)", line)
@@ -88,7 +88,7 @@ def main():
                     total = (reader_comm + writer_comm) / 1024.0 / 1024.0
                     total = round(total, 2)
                     
-                    onlinerelu = total
+                    offlinerelu = total
     
     offlineconvpercent = round(offlineconv*100 / (offlineconv + offlineotherlinear + offlinerelu), 2)
     offlineotherlinearpercent = round(offlineotherlinear*100 / (offlineconv + offlineotherlinear + offlinerelu), 2)
