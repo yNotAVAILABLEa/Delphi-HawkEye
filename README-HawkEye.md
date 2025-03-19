@@ -2,15 +2,19 @@
 
 This README file describes how to reproduce the model communication cost propfiling results from Delphi shown in Table 6 and Table 7 of the paper "HawkEye: Statically and Accurately Profiling the Communication Cost of Models in Multi-party Learning" (Usenix Security 2025).
 
-## Required Packages
- - g++ 
- - cmake
- - pkg-config
- - gcc
- - libssl-dev
- - libclang-dev
- - rustup
- - rust
+## Linux
+ - Ubuntu 20.04 
+
+## Required Packages And Tested Versions
+The required packages are listed below. It might also work with other versions. 
+ - g++ 11.4.0
+ - cmake 3.21.1
+ - pkg-config 0.29.1
+ - gcc 11.4.0
+ - libssl-dev 1.1.1f-1ubuntu2.24
+ - libclang-dev 1:10.0-50~exp1
+ - rustup 1.27.1
+ - rustc 1.83.0
 
 Except for `rustup` and `rust`, the above packages can be installed directly using `sudo apt-get install <package>` on Linux. For `rustup`, run the following command and follow the instructions.
 ```
