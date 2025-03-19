@@ -16,7 +16,7 @@ The required packages are listed below. It might also work with other versions.
  - rustup 1.27.1
  - rustc 1.83.0
 
-Except for `rustup` and `rust`, the above packages can be installed directly using `sudo apt-get install <package>` on Linux. For `rustup`, run the following command and follow the instructions.
+Except for `rustup` and `rustc`, the above packages can be installed directly using `sudo apt-get install <package>` on Linux. For `rustup`, run the following command and follow the instructions.
 ```
 sudo apt-get install curl
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -37,7 +37,7 @@ This is usually done by running one of the following (note the leading DOT):
 source "$HOME/.cargo/env.fish"  # For fish
 ```
 Choose the appropriate command to run based on your shell type.
-Once `rustup` is installed, you can install `rust` by running the following command:
+Once `rustup` is installed, you can install `rustc` by running the following command:
 ```
 rustup install nightly
 ```
